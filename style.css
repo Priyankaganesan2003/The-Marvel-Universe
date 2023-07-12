@@ -10,7 +10,7 @@ body{
     height: 80px;
     margin-left: 380px;
     margin-top: 175px;
-    background: green;
+    background: rgb(17, 17, 139);
 }
 
 .heading h1{
@@ -24,8 +24,8 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 1132px;
-    height: 700px;
-    background: rgba(16, 0, 0, 0.66);
+    height: 600px;
+    background: rgba(28, 19, 19, 0.66);
     margin-left: 380px;
 }
 
@@ -58,4 +58,11 @@ h2{
     border-radius: 5px 5px 0px 0px;
     margin-left: 20px;
     margin-top: 25px;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding-left: 0px;
 }
